@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projeto Cinema</title>
+
+    <!-- CSS Externo -->
+    <link href="css/estilos.css" rel="stylesheet" type="text/css" media="all" />
+</head>
+<body>
+    <div class="container">
+        <h1>Projeto Cinema</h1>
+        <hr><br />
+        <form action="php/verificaIdade.php" method="POST">
+            <label>Nome Completo:</label><br />
+            <input type="text" name="nome" placeholder="Informe seu nome completo" /><br /><br />
+            <label>Idade:</label><br />
+            <input type="number" name="idade" placeholder="Informe seu idade" /><br /><br />
+            <label>Selecione o filme:</label><br />
+            <select name="filme">
+                <option value="Matrix">Matrix - 12 anos</option>
+                <option value="Toy Story">Toy Story - Livre</option>
+                <option value="Sexta Feira 13">Sexta Feira 13 - 16 anos</option>
+                <option value="Top Gun">Top Gun - 14 anos</option>
+                <option value="Instinto Selvagem">Instinto Selvagem - 18 anos</option>
+                <option value="Piratas do Vale do Silício">Piratas do Vale do Silício - 12 anos</option>
+                <option value="Akira">Akira - 18 anos</option>
+                <option value="Minority Report">Minority Report - 14 anos</option>
+                <option value="O Rei Leão">O Rei Leão - Livre</option>
+                <option value="Terrifier">Terrifier - 18 anos</option>
+            </select><br /><br />
+            <button type="submit">Comprar Ingresso</button>
+        </form>
+    </div>
+</body>
+</html>

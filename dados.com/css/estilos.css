@@ -1,0 +1,28 @@
+.container {
+    margin: 0px 15%;
+}
+
+h1 {
+    text-align: center;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    color: greenyellow;
+    background-color: black;
+}
+
+input, select {
+    border-color: greenyellow;
+    height: 20px;
+}
+
+hr {
+    border-color: greenyellow;
+}
+
+button {
+    background-color: black;
+    border-color: yellowgreen;
+    color: yellowgreen;
+}

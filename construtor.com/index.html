@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Construtor</title>
+</head>
+<body>
+    <h1>Formulário Orientado a Objetos</h1>
+    <hr />
+    <form action="php/dados.php" method="POST">
+        <label>Nome:</label><br />
+        <input type="text" name="nome" placeholder="Digite o primeiro nome..." /><br /><br />
+        <label>Sobrenome:</label><br />
+        <input type="text" name="sobrenome" placeholder="Digite o sobrenome..." /><br /><br />
+        <label>Profissão:</label><br />
+        <input type="text" name="profissao" placeholder="Profissão..." /><br /><br />
+        <label>Genêro:</label><br />
+        <select name="genero">
+            <option>Escolha uma opção</option>
+            <option value="Masculino">Masculino</option>
+            <option value="Feminino">Feminino</option>
+            <option value="Nenhum">Nenhum</option>
+        </select><br /><br />
+        <button type="submit">Enviar</button>
+    </form>    
+</body>
+</html>
