@@ -13,8 +13,9 @@ class Veiculo {
     private $motorista;
 
     // Método Construtor
-    public function __construct($idVeiculo) {
+    public function __construct($idVeiculo, $motorista) {
         $this->idVeiculo = $idVeiculo;
+        $this->motorista = $motorista;
     }
 
     // Métodos de acesso (get e set)
@@ -24,6 +25,14 @@ class Veiculo {
 
     public function getIdVeiculo() {
         return $this->idVeiculo;
+    }
+
+    public function setTipo($tipo) {
+        $this->tipo = $tipo;
+    }
+
+    public function getTipo() {
+        return $this->tipo;
     }
     
     public function setModelo($modelo) {

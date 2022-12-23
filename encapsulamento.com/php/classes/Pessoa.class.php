@@ -7,6 +7,7 @@ class Pessoa {
     private $profissao;
     private $cidade;
     private $cpf;
+    private $cor;
 
     // Métodos de acesso
     public function setNome($nome){
@@ -48,6 +49,5 @@ class Pessoa {
     public function getCpf(){
         return $this->cpf;
     }
-
 }
 ?>

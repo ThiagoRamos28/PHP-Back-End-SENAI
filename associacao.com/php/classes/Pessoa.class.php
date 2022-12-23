@@ -54,5 +54,13 @@ class Pessoa {
     public function getTelefone() {
         return $this->telefone;
     }
+
+    public function setEmail($email) {
+        $this->email = $email;
+    }
+
+    public function getEmail() {
+        return $this->email;
+    }
 } 
 ?>
