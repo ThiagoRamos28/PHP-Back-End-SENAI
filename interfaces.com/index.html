@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Caixa Eletrônico Web</title>
+</head>
+<body>
+    <h1>Caixa Eletrônico Web</h1>
+    <hr>
+    <form action="php/acao.php" method="POST">
+        <label>Nome do Titular</label><br />
+        <input type="text" name="nome" /><br /><br />
+        <select name="opcoes">
+            <option>Escolha uma Opção</option>
+            <option value="Consultar Dados">Consultar dados da conta</option>
+            <option value="Sacar">Fazer Saque</option>
+            <option value="Depositar">Fazer Depósito</option>
+        </select><br /><br />
+        <button type="submit">Executar</button>
+    </form>
+</body>
+</html>
